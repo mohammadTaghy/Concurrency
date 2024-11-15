@@ -1,0 +1,14 @@
+F:\D\fanavaran\Concurrency\CancellationToken_Example\bin\Debug\net8.0\CancellationToken_Example.exe
+F:\D\fanavaran\Concurrency\CancellationToken_Example\bin\Debug\net8.0\CancellationToken_Example.deps.json
+F:\D\fanavaran\Concurrency\CancellationToken_Example\bin\Debug\net8.0\CancellationToken_Example.runtimeconfig.json
+F:\D\fanavaran\Concurrency\CancellationToken_Example\bin\Debug\net8.0\CancellationToken_Example.dll
+F:\D\fanavaran\Concurrency\CancellationToken_Example\bin\Debug\net8.0\CancellationToken_Example.pdb
+F:\D\fanavaran\Concurrency\CancellationToken_Example\obj\Debug\net8.0\CancellationToken_Example.GeneratedMSBuildEditorConfig.editorconfig
+F:\D\fanavaran\Concurrency\CancellationToken_Example\obj\Debug\net8.0\CancellationToken_Example.AssemblyInfoInputs.cache
+F:\D\fanavaran\Concurrency\CancellationToken_Example\obj\Debug\net8.0\CancellationToken_Example.AssemblyInfo.cs
+F:\D\fanavaran\Concurrency\CancellationToken_Example\obj\Debug\net8.0\CancellationToken_Example.csproj.CoreCompileInputs.cache
+F:\D\fanavaran\Concurrency\CancellationToken_Example\obj\Debug\net8.0\CancellationToken_Example.dll
+F:\D\fanavaran\Concurrency\CancellationToken_Example\obj\Debug\net8.0\refint\CancellationToken_Example.dll
+F:\D\fanavaran\Concurrency\CancellationToken_Example\obj\Debug\net8.0\CancellationToken_Example.pdb
+F:\D\fanavaran\Concurrency\CancellationToken_Example\obj\Debug\net8.0\CancellationToken_Example.genruntimeconfig.cache
+F:\D\fanavaran\Concurrency\CancellationToken_Example\obj\Debug\net8.0\ref\CancellationToken_Example.dll
