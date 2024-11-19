@@ -1,0 +1,15 @@
+F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Debug\net8.0\Parallel_For.exe
+F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Debug\net8.0\Parallel_For.deps.json
+F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Debug\net8.0\Parallel_For.runtimeconfig.json
+F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Debug\net8.0\Parallel_For.dll
+F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Debug\net8.0\Parallel_For.pdb
+F:\D\fanavaran\Concurrency\Project\Parallel_For\obj\Debug\net8.0\Parallel_For.GeneratedMSBuildEditorConfig.editorconfig
+F:\D\fanavaran\Concurrency\Project\Parallel_For\obj\Debug\net8.0\Parallel_For.AssemblyInfoInputs.cache
+F:\D\fanavaran\Concurrency\Project\Parallel_For\obj\Debug\net8.0\Parallel_For.AssemblyInfo.cs
+F:\D\fanavaran\Concurrency\Project\Parallel_For\obj\Debug\net8.0\Parallel_For.csproj.CoreCompileInputs.cache
+F:\D\fanavaran\Concurrency\Project\Parallel_For\obj\Debug\net8.0\Parallel_For.sourcelink.json
+F:\D\fanavaran\Concurrency\Project\Parallel_For\obj\Debug\net8.0\Parallel_For.dll
+F:\D\fanavaran\Concurrency\Project\Parallel_For\obj\Debug\net8.0\refint\Parallel_For.dll
+F:\D\fanavaran\Concurrency\Project\Parallel_For\obj\Debug\net8.0\Parallel_For.pdb
+F:\D\fanavaran\Concurrency\Project\Parallel_For\obj\Debug\net8.0\Parallel_For.genruntimeconfig.cache
+F:\D\fanavaran\Concurrency\Project\Parallel_For\obj\Debug\net8.0\ref\Parallel_For.dll

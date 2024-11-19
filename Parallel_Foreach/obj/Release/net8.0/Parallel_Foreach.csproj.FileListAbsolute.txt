@@ -1,0 +1,15 @@
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\bin\Release\net8.0\Parallel_Foreach.exe
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\bin\Release\net8.0\Parallel_Foreach.deps.json
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\bin\Release\net8.0\Parallel_Foreach.runtimeconfig.json
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\bin\Release\net8.0\Parallel_Foreach.dll
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\bin\Release\net8.0\Parallel_Foreach.pdb
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\obj\Release\net8.0\Parallel_Foreach.GeneratedMSBuildEditorConfig.editorconfig
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\obj\Release\net8.0\Parallel_Foreach.AssemblyInfoInputs.cache
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\obj\Release\net8.0\Parallel_Foreach.AssemblyInfo.cs
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\obj\Release\net8.0\Parallel_Foreach.csproj.CoreCompileInputs.cache
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\obj\Release\net8.0\Parallel_Foreach.sourcelink.json
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\obj\Release\net8.0\Parallel_Foreach.dll
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\obj\Release\net8.0\refint\Parallel_Foreach.dll
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\obj\Release\net8.0\Parallel_Foreach.pdb
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\obj\Release\net8.0\Parallel_Foreach.genruntimeconfig.cache
+F:\D\fanavaran\Concurrency\Project\Parallel_Foreach\obj\Release\net8.0\ref\Parallel_Foreach.dll

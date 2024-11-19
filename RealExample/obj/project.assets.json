@@ -1693,11 +1693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\D\\fanavaran\\Concurrency\\RealExample\\RealExample.csproj",
+      "projectUniqueName": "F:\\D\\fanavaran\\Concurrency\\Project\\RealExample\\RealExample.csproj",
       "projectName": "RealExample",
-      "projectPath": "F:\\D\\fanavaran\\Concurrency\\RealExample\\RealExample.csproj",
+      "projectPath": "F:\\D\\fanavaran\\Concurrency\\Project\\RealExample\\RealExample.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\D\\fanavaran\\Concurrency\\RealExample\\obj\\",
+      "outputPath": "F:\\D\\fanavaran\\Concurrency\\Project\\RealExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

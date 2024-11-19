@@ -1,0 +1,15 @@
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\bin\Release\net8.0\Parallel_Invoke.exe
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\bin\Release\net8.0\Parallel_Invoke.deps.json
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\bin\Release\net8.0\Parallel_Invoke.runtimeconfig.json
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\bin\Release\net8.0\Parallel_Invoke.dll
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\bin\Release\net8.0\Parallel_Invoke.pdb
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\obj\Release\net8.0\Parallel_Invoke.GeneratedMSBuildEditorConfig.editorconfig
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\obj\Release\net8.0\Parallel_Invoke.AssemblyInfoInputs.cache
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\obj\Release\net8.0\Parallel_Invoke.AssemblyInfo.cs
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\obj\Release\net8.0\Parallel_Invoke.csproj.CoreCompileInputs.cache
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\obj\Release\net8.0\Parallel_Invoke.sourcelink.json
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\obj\Release\net8.0\Parallel_Invoke.dll
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\obj\Release\net8.0\refint\Parallel_Invoke.dll
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\obj\Release\net8.0\Parallel_Invoke.pdb
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\obj\Release\net8.0\Parallel_Invoke.genruntimeconfig.cache
+F:\D\fanavaran\Concurrency\Project\Parallel_Invoke\obj\Release\net8.0\ref\Parallel_Invoke.dll

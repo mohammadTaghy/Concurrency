@@ -1,0 +1,208 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 3 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef\obj\Release\net8.0/" /p:OutDir="F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef\bin\Release\net8.0/" /p:OutputPath="F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef\bin\Release\net8.0/" in F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef
+// command took 1.19 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef\obj\Release\net8.0/" /p:OutDir="F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef\bin\Release\net8.0/" /p:OutputPath="F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef\bin\Release\net8.0/" --output "F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef\bin\Release\net8.0/" in F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef
+// command took 4.74 sec and exited with 0
+// ***** Done, took 00:00:06 (6.05 sec)   *****
+// Found 3 benchmarks:
+//   BenchmarkExample.UseParallelForeach: DefaultJob
+//   BenchmarkExample.UseParallelFor: DefaultJob
+//   BenchmarkExample.UselFor: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: BenchmarkExample.UseParallelForeach: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 8345a61b-41e2-453c-9683-b69e1165daef.dll --anonymousPipes 1088 1236 --benchmarkName Parallel_For.BenchmarkExample.UseParallelForeach --job Default --benchmarkId 0 in F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.10 (8.0.1024.46610), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 159600.00 ns, 159.6000 us/op
+WorkloadJitting  1: 1 op, 1242896100.00 ns, 1.2429 s/op
+
+OverheadJitting  2: 1 op, 700.00 ns, 700.0000 ns/op
+WorkloadJitting  2: 1 op, 297169200.00 ns, 297.1692 ms/op
+
+WorkloadPilot    1: 2 op, 595926800.00 ns, 297.9634 ms/op
+
+WorkloadWarmup   1: 2 op, 565668600.00 ns, 282.8343 ms/op
+WorkloadWarmup   2: 2 op, 586382300.00 ns, 293.1912 ms/op
+WorkloadWarmup   3: 2 op, 609541900.00 ns, 304.7710 ms/op
+WorkloadWarmup   4: 2 op, 566433800.00 ns, 283.2169 ms/op
+WorkloadWarmup   5: 2 op, 573396300.00 ns, 286.6982 ms/op
+WorkloadWarmup   6: 2 op, 576596700.00 ns, 288.2984 ms/op
+WorkloadWarmup   7: 2 op, 590135400.00 ns, 295.0677 ms/op
+WorkloadWarmup   8: 2 op, 566774400.00 ns, 283.3872 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 2 op, 580776600.00 ns, 290.3883 ms/op
+WorkloadActual   2: 2 op, 590934700.00 ns, 295.4674 ms/op
+WorkloadActual   3: 2 op, 575237600.00 ns, 287.6188 ms/op
+WorkloadActual   4: 2 op, 606252900.00 ns, 303.1265 ms/op
+WorkloadActual   5: 2 op, 555933100.00 ns, 277.9666 ms/op
+WorkloadActual   6: 2 op, 568728900.00 ns, 284.3645 ms/op
+WorkloadActual   7: 2 op, 570107500.00 ns, 285.0538 ms/op
+WorkloadActual   8: 2 op, 574951300.00 ns, 287.4757 ms/op
+WorkloadActual   9: 2 op, 587680900.00 ns, 293.8405 ms/op
+WorkloadActual  10: 2 op, 578866900.00 ns, 289.4335 ms/op
+WorkloadActual  11: 2 op, 574875100.00 ns, 287.4376 ms/op
+WorkloadActual  12: 2 op, 576581600.00 ns, 288.2908 ms/op
+WorkloadActual  13: 2 op, 581487100.00 ns, 290.7436 ms/op
+WorkloadActual  14: 2 op, 574389200.00 ns, 287.1946 ms/op
+WorkloadActual  15: 2 op, 568053900.00 ns, 284.0270 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 2 op, 580776600.00 ns, 290.3883 ms/op
+WorkloadResult   2: 2 op, 590934700.00 ns, 295.4674 ms/op
+WorkloadResult   3: 2 op, 575237600.00 ns, 287.6188 ms/op
+WorkloadResult   4: 2 op, 555933100.00 ns, 277.9666 ms/op
+WorkloadResult   5: 2 op, 568728900.00 ns, 284.3645 ms/op
+WorkloadResult   6: 2 op, 570107500.00 ns, 285.0538 ms/op
+WorkloadResult   7: 2 op, 574951300.00 ns, 287.4757 ms/op
+WorkloadResult   8: 2 op, 587680900.00 ns, 293.8405 ms/op
+WorkloadResult   9: 2 op, 578866900.00 ns, 289.4335 ms/op
+WorkloadResult  10: 2 op, 574875100.00 ns, 287.4376 ms/op
+WorkloadResult  11: 2 op, 576581600.00 ns, 288.2908 ms/op
+WorkloadResult  12: 2 op, 581487100.00 ns, 290.7436 ms/op
+WorkloadResult  13: 2 op, 574389200.00 ns, 287.1946 ms/op
+WorkloadResult  14: 2 op, 568053900.00 ns, 284.0270 ms/op
+
+// AfterAll
+// Benchmark Process 23484 has exited with code 0.
+
+Mean = 287.807 ms, StdErr = 1.159 ms (0.40%), N = 14, StdDev = 4.336 ms
+Min = 277.967 ms, Q1 = 285.589 ms, Median = 287.547 ms, Q3 = 290.150 ms, Max = 295.467 ms
+IQR = 4.561 ms, LowerFence = 278.748 ms, UpperFence = 296.991 ms
+ConfidenceInterval = [282.916 ms; 292.699 ms] (CI 99.9%), Margin = 4.892 ms (1.70% of Mean)
+Skewness = -0.31, Kurtosis = 2.96, MValue = 2
+
+// ** Remained 2 (66.7%) benchmark(s) to run. Estimated finish 2024-11-16 21:39 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: BenchmarkExample.UseParallelFor: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 8345a61b-41e2-453c-9683-b69e1165daef.dll --anonymousPipes 1352 1076 --benchmarkName Parallel_For.BenchmarkExample.UseParallelFor --job Default --benchmarkId 1 in F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.10 (8.0.1024.46610), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 150100.00 ns, 150.1000 us/op
+WorkloadJitting  1: 1 op, 327773500.00 ns, 327.7735 ms/op
+
+WorkloadPilot    1: 2 op, 717452300.00 ns, 358.7262 ms/op
+
+WorkloadWarmup   1: 2 op, 582259900.00 ns, 291.1300 ms/op
+WorkloadWarmup   2: 2 op, 577860100.00 ns, 288.9301 ms/op
+WorkloadWarmup   3: 2 op, 581756900.00 ns, 290.8785 ms/op
+WorkloadWarmup   4: 2 op, 561612000.00 ns, 280.8060 ms/op
+WorkloadWarmup   5: 2 op, 575969200.00 ns, 287.9846 ms/op
+WorkloadWarmup   6: 2 op, 580244000.00 ns, 290.1220 ms/op
+WorkloadWarmup   7: 2 op, 567453500.00 ns, 283.7268 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 2 op, 584250700.00 ns, 292.1254 ms/op
+WorkloadActual   2: 2 op, 569669200.00 ns, 284.8346 ms/op
+WorkloadActual   3: 2 op, 587205500.00 ns, 293.6028 ms/op
+WorkloadActual   4: 2 op, 566983900.00 ns, 283.4920 ms/op
+WorkloadActual   5: 2 op, 591760800.00 ns, 295.8804 ms/op
+WorkloadActual   6: 2 op, 579339100.00 ns, 289.6696 ms/op
+WorkloadActual   7: 2 op, 550826700.00 ns, 275.4134 ms/op
+WorkloadActual   8: 2 op, 595396900.00 ns, 297.6985 ms/op
+WorkloadActual   9: 2 op, 564168300.00 ns, 282.0842 ms/op
+WorkloadActual  10: 2 op, 571241000.00 ns, 285.6205 ms/op
+WorkloadActual  11: 2 op, 593727600.00 ns, 296.8638 ms/op
+WorkloadActual  12: 2 op, 601967500.00 ns, 300.9838 ms/op
+WorkloadActual  13: 2 op, 592122800.00 ns, 296.0614 ms/op
+WorkloadActual  14: 2 op, 580145700.00 ns, 290.0729 ms/op
+WorkloadActual  15: 2 op, 557472100.00 ns, 278.7361 ms/op
+WorkloadActual  16: 2 op, 590900700.00 ns, 295.4504 ms/op
+WorkloadActual  17: 2 op, 578085500.00 ns, 289.0428 ms/op
+WorkloadActual  18: 2 op, 548838200.00 ns, 274.4191 ms/op
+WorkloadActual  19: 2 op, 569145700.00 ns, 284.5729 ms/op
+WorkloadActual  20: 2 op, 565484400.00 ns, 282.7422 ms/op
+WorkloadActual  21: 2 op, 577373500.00 ns, 288.6868 ms/op
+WorkloadActual  22: 2 op, 567781900.00 ns, 283.8910 ms/op
+WorkloadActual  23: 2 op, 572237000.00 ns, 286.1185 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 2 op, 584250700.00 ns, 292.1254 ms/op
+WorkloadResult   2: 2 op, 569669200.00 ns, 284.8346 ms/op
+WorkloadResult   3: 2 op, 587205500.00 ns, 293.6028 ms/op
+WorkloadResult   4: 2 op, 566983900.00 ns, 283.4920 ms/op
+WorkloadResult   5: 2 op, 591760800.00 ns, 295.8804 ms/op
+WorkloadResult   6: 2 op, 579339100.00 ns, 289.6696 ms/op
+WorkloadResult   7: 2 op, 550826700.00 ns, 275.4134 ms/op
+WorkloadResult   8: 2 op, 595396900.00 ns, 297.6985 ms/op
+WorkloadResult   9: 2 op, 564168300.00 ns, 282.0842 ms/op
+WorkloadResult  10: 2 op, 571241000.00 ns, 285.6205 ms/op
+WorkloadResult  11: 2 op, 593727600.00 ns, 296.8638 ms/op
+WorkloadResult  12: 2 op, 601967500.00 ns, 300.9838 ms/op
+WorkloadResult  13: 2 op, 592122800.00 ns, 296.0614 ms/op
+WorkloadResult  14: 2 op, 580145700.00 ns, 290.0729 ms/op
+WorkloadResult  15: 2 op, 557472100.00 ns, 278.7361 ms/op
+WorkloadResult  16: 2 op, 590900700.00 ns, 295.4504 ms/op
+WorkloadResult  17: 2 op, 578085500.00 ns, 289.0428 ms/op
+WorkloadResult  18: 2 op, 548838200.00 ns, 274.4191 ms/op
+WorkloadResult  19: 2 op, 569145700.00 ns, 284.5729 ms/op
+WorkloadResult  20: 2 op, 565484400.00 ns, 282.7422 ms/op
+WorkloadResult  21: 2 op, 577373500.00 ns, 288.6868 ms/op
+WorkloadResult  22: 2 op, 567781900.00 ns, 283.8910 ms/op
+WorkloadResult  23: 2 op, 572237000.00 ns, 286.1185 ms/op
+
+// AfterAll
+// Benchmark Process 23252 has exited with code 0.
+
+Mean = 288.177 ms, StdErr = 1.501 ms (0.52%), N = 23, StdDev = 7.197 ms
+Min = 274.419 ms, Q1 = 283.691 ms, Median = 288.687 ms, Q3 = 294.527 ms, Max = 300.984 ms
+IQR = 10.835 ms, LowerFence = 267.439 ms, UpperFence = 310.779 ms
+ConfidenceInterval = [282.486 ms; 293.868 ms] (CI 99.9%), Margin = 5.691 ms (1.97% of Mean)
+Skewness = -0.12, Kurtosis = 2.04, MValue = 2
+
+// ** Remained 1 (33.3%) benchmark(s) to run. Estimated finish 2024-11-16 21:39 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: BenchmarkExample.UselFor: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 8345a61b-41e2-453c-9683-b69e1165daef.dll --anonymousPipes 1408 1404 --benchmarkName Parallel_For.BenchmarkExample.UselFor --job Default --benchmarkId 2 in F:\D\fanavaran\Concurrency\Project\Parallel_For\bin\Release\net8.0\8345a61b-41e2-453c-9683-b69e1165daef\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.10 (8.0.1024.46610), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 154200.00 ns, 154.2000 us/op
+WorkloadJitting  1: 1 op, 1422090500.00 ns, 1.4221 s/op
+
+OverheadJitting  2: 1 op, 400.00 ns, 400.0000 ns/op
+WorkloadJitting  2: 1 op, 1229120600.00 ns, 1.2291 s/op
+
+WorkloadWarmup   1: 1 op, 1234128000.00 ns, 1.2341 s/op
+WorkloadWarmup   2: 1 op, 1243301900.00 ns, 1.2433 s/op
+WorkloadWarmup   3: 1 op, 1229145400.00 ns, 1.2291 s/op
+WorkloadWarmup   4: 1 op, 1222532000.00 ns, 1.2225 s/op
+WorkloadWarmup   5: 1 op, 1279566200.00 ns, 1.2796 s/op
+WorkloadWarmup   6: 1 op, 1229738200.00 ns, 1.2297 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 1236285000.00 ns, 1.2363 s/op
+WorkloadActual   2: 1 op, 1226557000.00 ns, 1.2266 s/op

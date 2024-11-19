@@ -1,0 +1,53 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 3 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="F:\D\fanavaran\Concurrency\Project\Parallel_Aggregate\bin\Release\net8.0\e567a53c-af60-4c29-80b8-e66d651874f7\obj\Release\net8.0/" /p:OutDir="F:\D\fanavaran\Concurrency\Project\Parallel_Aggregate\bin\Release\net8.0\e567a53c-af60-4c29-80b8-e66d651874f7\bin\Release\net8.0/" /p:OutputPath="F:\D\fanavaran\Concurrency\Project\Parallel_Aggregate\bin\Release\net8.0\e567a53c-af60-4c29-80b8-e66d651874f7\bin\Release\net8.0/" in F:\D\fanavaran\Concurrency\Project\Parallel_Aggregate\bin\Release\net8.0\e567a53c-af60-4c29-80b8-e66d651874f7
+// command took 1.7 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="F:\D\fanavaran\Concurrency\Project\Parallel_Aggregate\bin\Release\net8.0\e567a53c-af60-4c29-80b8-e66d651874f7\obj\Release\net8.0/" /p:OutDir="F:\D\fanavaran\Concurrency\Project\Parallel_Aggregate\bin\Release\net8.0\e567a53c-af60-4c29-80b8-e66d651874f7\bin\Release\net8.0/" /p:OutputPath="F:\D\fanavaran\Concurrency\Project\Parallel_Aggregate\bin\Release\net8.0\e567a53c-af60-4c29-80b8-e66d651874f7\bin\Release\net8.0/" --output "F:\D\fanavaran\Concurrency\Project\Parallel_Aggregate\bin\Release\net8.0\e567a53c-af60-4c29-80b8-e66d651874f7\bin\Release\net8.0/" in F:\D\fanavaran\Concurrency\Project\Parallel_Aggregate\bin\Release\net8.0\e567a53c-af60-4c29-80b8-e66d651874f7
+// command took 5.23 sec and exited with 0
+// ***** Done, took 00:00:07 (7.07 sec)   *****
+// Found 3 benchmarks:
+//   Aggregate_Benchmark.ParallelSum: DefaultJob
+//   Aggregate_Benchmark.ParallelLinqSum: DefaultJob
+//   Aggregate_Benchmark.ParallelForSum: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Aggregate_Benchmark.ParallelSum: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet e567a53c-af60-4c29-80b8-e66d651874f7.dll --anonymousPipes 1364 1416 --benchmarkName Parallel_Aggregate.Aggregate_Benchmark.ParallelSum --job Default --benchmarkId 0 in F:\D\fanavaran\Concurrency\Project\Parallel_Aggregate\bin\Release\net8.0\e567a53c-af60-4c29-80b8-e66d651874f7\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.10 (8.0.1024.46610), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 153200.00 ns, 153.2000 us/op
+WorkloadJitting  1: 1 op, 112973673700.00 ns, 1.8829 m/op
+
+WorkloadWarmup   1: 1 op, 123197576300.00 ns, 2.0533 m/op
+WorkloadWarmup   2: 1 op, 116581636300.00 ns, 1.9430 m/op
+WorkloadWarmup   3: 1 op, 116976925800.00 ns, 1.9496 m/op
+WorkloadWarmup   4: 1 op, 116491018700.00 ns, 1.9415 m/op
+WorkloadWarmup   5: 1 op, 117594803100.00 ns, 1.9599 m/op
+WorkloadWarmup   6: 1 op, 119128829300.00 ns, 1.9855 m/op
+WorkloadWarmup   7: 1 op, 118064131700.00 ns, 1.9677 m/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 119590543500.00 ns, 1.9932 m/op
+WorkloadActual   2: 1 op, 120630332200.00 ns, 2.0105 m/op
+WorkloadActual   3: 1 op, 117530247300.00 ns, 1.9588 m/op
+WorkloadActual   4: 1 op, 118645922400.00 ns, 1.9774 m/op
+WorkloadActual   5: 1 op, 113493730100.00 ns, 1.8916 m/op
+WorkloadActual   6: 1 op, 119103878300.00 ns, 1.9851 m/op
+WorkloadActual   7: 1 op, 119620690300.00 ns, 1.9937 m/op
+WorkloadActual   8: 1 op, 119059330300.00 ns, 1.9843 m/op
+WorkloadActual   9: 1 op, 121556829600.00 ns, 2.0259 m/op
+WorkloadActual  10: 1 op, 112938223800.00 ns, 1.8823 m/op
+WorkloadActual  11: 1 op, 116361913600.00 ns, 1.9394 m/op
+WorkloadActual  12: 1 op, 118576551900.00 ns, 
