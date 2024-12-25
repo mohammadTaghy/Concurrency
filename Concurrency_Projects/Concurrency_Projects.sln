@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async_Await", "..\Async_Await\Async_Await.csproj", "{5CD0BE0B-2088-42DA-A2B4-8EFF8F995DCF}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel_Linq", "..\Parallel_Linq\Parallel_Linq.csproj", "{626818A6-142F-4F40-92E6-DA7CE8E3D121}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealExample", "..\RealExample\RealExample.csproj", "{1ED1326D-6B04-4B6B-B624-DD8F925B188A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncBasic", "..\AsyncBasic\AsyncBasic.csproj", "{3BB2C5F3-F579-415E-83FC-47AFB9D3D605}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{1ED1326D-6B04-4B6B-B624-DD8F925B188A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ED1326D-6B04-4B6B-B624-DD8F925B188A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ED1326D-6B04-4B6B-B624-DD8F925B188A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB2C5F3-F579-415E-83FC-47AFB9D3D605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB2C5F3-F579-415E-83FC-47AFB9D3D605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB2C5F3-F579-415E-83FC-47AFB9D3D605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB2C5F3-F579-415E-83FC-47AFB9D3D605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

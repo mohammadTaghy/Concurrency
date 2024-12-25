@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Parallel_Aggregate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a73da6c92d34ca0caaead014b22c9fe8ca8b90f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43131ff41c71bd5c9a2de7aaff8f69be6cdee871")]
 [assembly: System.Reflection.AssemblyProductAttribute("Parallel_Aggregate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Parallel_Aggregate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

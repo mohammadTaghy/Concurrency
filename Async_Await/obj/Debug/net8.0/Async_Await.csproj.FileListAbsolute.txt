@@ -1,0 +1,15 @@
+F:\D\fanavaran\Concurrency\Project\Async_Await\bin\Debug\net8.0\Async_Await.exe
+F:\D\fanavaran\Concurrency\Project\Async_Await\bin\Debug\net8.0\Async_Await.deps.json
+F:\D\fanavaran\Concurrency\Project\Async_Await\bin\Debug\net8.0\Async_Await.runtimeconfig.json
+F:\D\fanavaran\Concurrency\Project\Async_Await\bin\Debug\net8.0\Async_Await.dll
+F:\D\fanavaran\Concurrency\Project\Async_Await\bin\Debug\net8.0\Async_Await.pdb
+F:\D\fanavaran\Concurrency\Project\Async_Await\obj\Debug\net8.0\Async_Await.GeneratedMSBuildEditorConfig.editorconfig
+F:\D\fanavaran\Concurrency\Project\Async_Await\obj\Debug\net8.0\Async_Await.AssemblyInfoInputs.cache
+F:\D\fanavaran\Concurrency\Project\Async_Await\obj\Debug\net8.0\Async_Await.AssemblyInfo.cs
+F:\D\fanavaran\Concurrency\Project\Async_Await\obj\Debug\net8.0\Async_Await.csproj.CoreCompileInputs.cache
+F:\D\fanavaran\Concurrency\Project\Async_Await\obj\Debug\net8.0\Async_Await.sourcelink.json
+F:\D\fanavaran\Concurrency\Project\Async_Await\obj\Debug\net8.0\Async_Await.dll
+F:\D\fanavaran\Concurrency\Project\Async_Await\obj\Debug\net8.0\refint\Async_Await.dll
+F:\D\fanavaran\Concurrency\Project\Async_Await\obj\Debug\net8.0\Async_Await.pdb
+F:\D\fanavaran\Concurrency\Project\Async_Await\obj\Debug\net8.0\Async_Await.genruntimeconfig.cache
+F:\D\fanavaran\Concurrency\Project\Async_Await\obj\Debug\net8.0\ref\Async_Await.dll
